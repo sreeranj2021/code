@@ -36,10 +36,10 @@ module "backend" {
   seq_id = var.seq_id
   besnet_id = module.networking.besnet_id
 }
-/*module "dbtier" {
+module "dbtier" {
   source = "./modules/dbtier"
   mysqlsrv_name = "${var.env_prefix}${var.mysqlsrv_name}${var.seq_id}"
   rg_location = azurerm_resource_group.test.location
   resource_group_name = azurerm_resource_group.test.name
   dbsnet_id = module.networking.dbsnet_id
-}*/
+}
