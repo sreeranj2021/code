@@ -56,7 +56,7 @@ TODO: To place Jumpbox,KV,Log Analytics workspace, Storage account etc.
 ### Improvements - To do
 
 1. Enable logging and auditing for VMs and apply minimum security baselines for components. Introduce Storage account and Log analytics workspace.
-2. Use keyvault to save senistive information
+2. Use keyvault to save senistive information. Use the KV secrets in the terraform code to save sensitive information.
 3. Include LB probes, rules etc based on app requirement
 4. Use Application gateway instead of frontend LB and enable WAF.
 5. Use VMSS instead of frontend VMs
