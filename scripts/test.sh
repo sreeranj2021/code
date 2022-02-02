@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-echo "hello" >> ~/scriptoutput.txt
+echo "hello" >> /home/sysadmin/scriptoutput.txt
